@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>呼喊供應室</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #1d1d1f;
+            color: #d2d2d8;
+            font-size: 10px;
+            letter-spacing: .4px;
+        }
+
+        .top-bar {
+            background-color: #333;
+            padding: 15px 0px;
+            margin-left: -10px;
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            top: 0px;
+        }
+
+        .wrapper {
+            padding: 5px;
+            max-width: 980px;
+            margin: 14% auto;
+        }
+
+        .columns {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            margin: 5px 0;
+        }
+
+        .column {
+            flex: 1;
+        }
+
+        .main-title {
+            color: white;
+            font-weight: bold;
+        }
+
+        ul {
+            overflow: hidden;
+        }
+
+        li {
+            list-style: none;
+            margin-left: -40px;
+            padding-top: 6px;
+            margin-bottom: 2px;
+        }
+
+        footer {
+            margin-top: 50px;
+            color: #86868c;
+            padding: 0;
+        }
+
+        a {
+            color: #d2d2d8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: white;
+        }
+
+        .footer-title {
+            float:right;
+        }
+
+        hr {
+            height: 1px;
+            border: none;
+            background-color: #414244;
+            margin-top: 12px;
+            margin-bottom: 12px;
+        }
+
+        @media screen and (max-width: 980px) {
+            .columns .column {
+                margin-bottom: 5px;
+                flex-basis: 40%;
+            }
+            .columns .column:nth-last-child(2) {
+                margin-right: 0;
+            }
+            .columns .column:last-child {
+                flex-basis: 100%;
+                margin: 0;
+            }
+        }
+        @media screen and (max-width: 680px) {
+            .columns .column {
+                flex-basis: 100%;
+                margin: 0 0 20px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="top-bar">
+        &lt;WARNING&gt; “呼喊供應室” is a trademark and its use in any form by any individual or group is prohibited.
+    </div> -->
+    <div class="wrapper">
+            
+        <section class="columns">
+            
+            <div class="column">
+                <span class="main-title">項目&nbsp;Projects</span>
+                <ul>
+                    <li><a href="https://haitso.com">Haitso&nbsp;海作潮汐</a></li>
+                    <li><a href="https://news.oevon.com">oevon.com </a></li>
+                </ul>
+            </div>
+        
+            <div class="column">
+                <span class="main-title">感謝&nbsp;Thanks</span>
+                <ul>
+                    <li>Github Pages</li>
+                </ul>
+            </div>
+
+            <div class="column">
+            </div>
+
+            <div class="column">
+            </div>
+            
+        </section>	
+        
+        <footer>
+            <span>791c7938-f2ba-4d3f-8eae-6b3677898246</span>
+            <hr>
+            <div>
+                <span>Copyright&nbsp;&copy;&nbsp;2018-<script>document.write(new Date().getFullYear())</script> ssrm.team. All rights reserved.</span>
+                <span class="footer-title">呼喊供應室™</span>
+            </div>
+        </footer>
+    
+    </div>
+</body>
+</html>
